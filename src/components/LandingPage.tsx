@@ -501,6 +501,8 @@ function TikTokIcon({ size = 18 }: { size?: number }) {
 
 function ContactSection() {
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
   return (
     <section id="contact" className="py-20 md:py-28 bg-background">
       <div className="max-w-7xl mx-auto px-5 lg:px-10 grid lg:grid-cols-2 gap-12">
