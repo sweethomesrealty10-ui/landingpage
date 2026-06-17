@@ -19,7 +19,8 @@ import consultantStanding from "@/assets/consultant-standing.jpeg";
 import propertyHomeAsset from "@/assets/modern-family-home.jpeg.asset.json";
 const propertyHome = propertyHomeAsset.url;
 import propertyLand from "@/assets/property-land.jpg";
-import propertyApartment from "@/assets/property-apartment.jpg";
+import propertyApartmentAsset from "@/assets/premium-apartment-option.png.asset.json";
+const propertyApartment = propertyApartmentAsset.url;
 
 const WHATSAPP = "https://wa.me/2348067562646";
 const PHONE = "+2348067562646";
