@@ -83,6 +83,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:description", content: "Find homes, land, and investment properties with Sweethomes Realty, a trusted real estate company serving clients across Lagos, Nigeria." },
     ],
     links: [
+      { rel: "icon", href: "/favicon.ico" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
