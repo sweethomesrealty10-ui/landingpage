@@ -16,9 +16,10 @@ import {
 import logo from "@/assets/sweethomes-logo.png";
 import consultantHero from "@/assets/consultant-hero.jpeg";
 import consultantStanding from "@/assets/consultant-standing.jpeg";
-import propertyHome from "@/assets/property-home.jpg";
 import propertyLand from "@/assets/property-land.jpg";
-import propertyApartment from "@/assets/property-apartment.jpg";
+
+const propertyHome = "/modern-family-home.jpeg";
+const propertyApartment = "/premium--apartment-options.jpeg";
 
 const WHATSAPP = "https://wa.me/2348067562646";
 const PHONE = "+2348067562646";
